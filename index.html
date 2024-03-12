@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mark Row</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="code-card">
+      <div class="code-header">
+        <h2>Code Snippet</h2>
+          <button id="copy-button" class="btn-copy">
+            <i class="fa-regular fa-copy"></i>
+            Copy
+        </button>
+      </div>
+      <pre id="code">
+        int largestFiboLessOrEqual(int n)
+        {
+            fib[0] = 1; 
+            fib[1] = 2;  
+            int i;
+            for (i=2; fib[i-1]<=n; i++)
+            fib[i] = fib[i-1] + fib[i-2];
+            return (i-2);
+        }
+      </pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

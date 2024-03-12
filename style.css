@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.code-card {
+  background-color: #111;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 400px; /* Reduced width */
+  padding: 15px; /* Reduced padding */
+  border: 2px solid #ffff00; /* Yellow border */
+}
+
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+.btn-copy {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px; /* Reduced padding */
+  cursor: pointer;
+  font-size: 14px; /* Reduced font size */
+  border-radius: 5px;
+}
+
+.btn-copy .material-icons {
+  font-size: 16px; /* Reduced font size for icon */
+}
+
+.btn-copy:hover {
+  background-color: #0056b3;
+}
+
+.material-icons {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#code {
+  white-space: pre-wrap;
+}
